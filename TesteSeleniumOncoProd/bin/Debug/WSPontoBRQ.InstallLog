@@ -1,0 +1,120 @@
+﻿Instalando o assembly 'C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.InstallLog
+   assemblypath = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe
+Revertendo o assembly 'C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.InstallLog
+   assemblypath = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe
+Ocorreu uma exceção durante a fase de reversão do instalador System.ServiceProcess.ServiceProcessInstaller.
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+Ocorreu uma exceção durante a fase de reversão da instalação. Essa exceção será ignorada e a reversão continuará. Mas talvez o computador não reverta totalmente para o estado inicial após a conclusão da reversão.
+Instalando o assembly 'C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.InstallLog
+   assemblypath = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe
+Instalando o serviço WSBRQ Ponto Eletronico...
+Criando a origem de EventLog WSBRQ Ponto Eletronico no log Application...
+Revertendo o assembly 'C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.InstallLog
+   assemblypath = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe
+Restaurando o log de eventos para o estado anterior da origem WSBRQ Ponto Eletronico.
+Ocorreu uma exceção durante a fase de reversão do instalador System.Diagnostics.EventLogInstaller.
+System.Security.SecurityException: Fonte não encontrada, mas alguns ou todos os logs de evento não puderam ser pesquisados. Logs inacessíveis: Security.
+Ocorreu uma exceção durante a fase de reversão da instalação. Essa exceção será ignorada e a reversão continuará. Mas talvez o computador não reverta totalmente para o estado inicial após a conclusão da reversão.
+Instalando o assembly 'C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.InstallLog
+   assemblypath = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe
+Instalando o serviço WSBRQ Ponto Eletronico...
+Criando a origem de EventLog WSBRQ Ponto Eletronico no log Application...
+Revertendo o assembly 'C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.InstallLog
+   assemblypath = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe
+Restaurando o log de eventos para o estado anterior da origem WSBRQ Ponto Eletronico.
+Ocorreu uma exceção durante a fase de reversão do instalador System.Diagnostics.EventLogInstaller.
+System.Security.SecurityException: Fonte não encontrada, mas alguns ou todos os logs de evento não puderam ser pesquisados. Logs inacessíveis: Security.
+Ocorreu uma exceção durante a fase de reversão da instalação. Essa exceção será ignorada e a reversão continuará. Mas talvez o computador não reverta totalmente para o estado inicial após a conclusão da reversão.
+Instalando o assembly 'C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.InstallLog
+   assemblypath = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe
+Instalando o serviço WSBRQ Ponto Eletronico...
+Serviço WSBRQ Ponto Eletronico foi instalado com êxito.
+Criando a origem de EventLog WSBRQ Ponto Eletronico no log Application...
+Confirmando o assembly 'C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.InstallLog
+   assemblypath = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe
+Desinstalando o assembly 'C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.InstallLog
+   assemblypath = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe
+Removendo a origem do EventLog WSBRQ Ponto Eletronico.
+Serviço WSBRQ Ponto Eletronico está sendo removido do sistema...
+Serviço WSBRQ Ponto Eletronico foi removido com êxito do sistema.
+Instalando o assembly 'C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.InstallLog
+   assemblypath = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe
+Instalando o serviço WSBRQ Ponto Eletronico...
+Serviço WSBRQ Ponto Eletronico foi instalado com êxito.
+Criando a origem de EventLog WSBRQ Ponto Eletronico no log Application...
+Confirmando o assembly 'C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.InstallLog
+   assemblypath = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe
+Desinstalando o assembly 'C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.InstallLog
+   assemblypath = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe
+Removendo a origem do EventLog WSBRQ Ponto Eletronico.
+Serviço WSBRQ Ponto Eletronico está sendo removido do sistema...
+Serviço WSBRQ Ponto Eletronico foi removido com êxito do sistema.
+Desinstalando o assembly 'C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.InstallLog
+   assemblypath = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe
+Removendo a origem do EventLog WSBRQ Ponto Eletronico.
+Aviso: a origem WSBRQ Ponto Eletronico não está registrada no computador local.
+Serviço WSBRQ Ponto Eletronico está sendo removido do sistema...
+Ocorreu uma exceção durante a desinstalação do instalador System.ServiceProcess.ServiceInstaller.
+System.ComponentModel.Win32Exception: O serviço especificado não existe como serviço instalado
+Ocorreu uma exceção ao desinstalar. Essa exceção será ignorada e a desinstalação continuará. Mas talvez o aplicativo não seja totalmente desinstalado após a conclusão da desinstalação.
+Instalando o assembly 'C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.InstallLog
+   assemblypath = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe
+Instalando o serviço WSBRQ Ponto Eletronico...
+Serviço WSBRQ Ponto Eletronico foi instalado com êxito.
+Criando a origem de EventLog WSBRQ Ponto Eletronico no log Application...
+Confirmando o assembly 'C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.InstallLog
+   assemblypath = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe
+Desinstalando o assembly 'C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.InstallLog
+   assemblypath = C:\Users\Marcelo\Documents\Visual Studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe
+Removendo a origem do EventLog WSBRQ Ponto Eletronico.
+Serviço WSBRQ Ponto Eletronico está sendo removido do sistema...
+Serviço WSBRQ Ponto Eletronico foi removido com êxito do sistema.
+Tentativa de parar o serviço WSBRQ Ponto Eletronico.

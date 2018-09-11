@@ -12,3 +12,6 @@ c:\users\marcelo\documents\visual studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin
 c:\users\marcelo\documents\visual studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\obj\Debug\WSPontoBRQ.csprojResolveAssemblyReference.cache
 c:\users\marcelo\documents\visual studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\obj\Debug\WSPontoBRQ.exe
 c:\users\marcelo\documents\visual studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\obj\Debug\WSPontoBRQ.pdb
+C:\Users\Marcelo\Desktop\Git Projetos Pessoais\WSPontoBRQ\WSPontoBRQ\bin\Debug\WSPontoBRQ.exe.config
+C:\Users\Marcelo\Desktop\Git Projetos Pessoais\WSPontoBRQ\WSPontoBRQ\obj\Debug\WSPontoBRQ.exe
+C:\Users\Marcelo\Desktop\Git Projetos Pessoais\WSPontoBRQ\WSPontoBRQ\obj\Debug\WSPontoBRQ.pdb

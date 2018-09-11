@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSPontoBRQ", "WSPontoBRQ\WSPontoBRQ.csproj", "{42862A2F-7599-4439-92F6-A0BAD3D1A1EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteSeleniumOncoProd", "TesteSeleniumOncoProd\TesteSeleniumOncoProd.csproj", "{AA618D1A-FFA8-407B-B88F-8CDA1B36E283}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{42862A2F-7599-4439-92F6-A0BAD3D1A1EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42862A2F-7599-4439-92F6-A0BAD3D1A1EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42862A2F-7599-4439-92F6-A0BAD3D1A1EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA618D1A-FFA8-407B-B88F-8CDA1B36E283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA618D1A-FFA8-407B-B88F-8CDA1B36E283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA618D1A-FFA8-407B-B88F-8CDA1B36E283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA618D1A-FFA8-407B-B88F-8CDA1B36E283}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F792256-F411-4B4C-8D53-194F7CC45609}
 	EndGlobalSection
 EndGlobal
