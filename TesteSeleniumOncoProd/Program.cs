@@ -20,84 +20,69 @@ namespace TesteSeleniumOncoProd
 
         public static void AcessarSite()
         {
+            try
+            {
 
-            ChromeDriver _chromeDriver = new ChromeDriver();
+                ChromeDriver _chromeDriver = new ChromeDriver();
 
-            _chromeDriver.Manage().Window.Maximize();
+                _chromeDriver.Manage().Window.Maximize();
 
-            _chromeDriver.Navigate().GoToUrl(new Uri("http://localhost:4395/Login.aspx"));
+                _chromeDriver.Navigate().GoToUrl(new Uri("http://localhost:4395/Login.aspx"));
 
-            IWebElement usuario = _chromeDriver.FindElement(By.Id("txtLogin"));
-            usuario.SendKeys("THIAGOA");
+                IWebElement usuario = _chromeDriver.FindElement(By.Id("txtLogin"));
+                usuario.SendKeys("THIAGOA");
 
-            IWebElement senha = _chromeDriver.FindElement(By.Id("txtPassword"));
-            senha.SendKeys("oncoks");
+                IWebElement senha = _chromeDriver.FindElement(By.Id("txtPassword"));
+                senha.SendKeys("oncoks");
 
-            IWebElement button = _chromeDriver.FindElement(By.Id("btnLogin"));
-            button.Click();
+                IWebElement button = _chromeDriver.FindElement(By.Id("btnLogin"));
+                button.Click();
 
-            Thread.Sleep(2000);
-            _chromeDriver.Navigate().GoToUrl(new Uri("http://localhost:4395/AppPaginas/Cadastros/CadCheckListLicitatorio.aspx"));
+                _chromeDriver.Navigate().Refresh();
 
-
-            IWebElement novoItem = _chromeDriver.FindElement(By.Id("ContentPlaceHolder1_btnFiltrosNovoCadastro"));
-            novoItem.Click();
-
-            IWebElement CNPJ = _chromeDriver.FindElement(By.Id("ContentPlaceHolder1_txtCnpjIclusao"));
-            CNPJ.SendKeys("67.838.490/0001-70");
-
-            IWebElement checkCliente = _chromeDriver.FindElement(By.Id("ContentPlaceHolder1_imbContratoHeaderCnpjCheck"));
-            checkCliente.Click();
-
-            IWebElement CODE = _chromeDriver.FindElement(By.Id("ContentPlaceHolder1_txtCadCodigo"));
-            CODE.SendKeys("670001");
-
-            IWebElement vigencia = _chromeDriver.FindElement(By.Id("ContentPlaceHolder1_txtVigencia"));
-            vigencia.SendKeys("20");
-
-            IWebElement prazo = _chromeDriver.FindElement(By.Id("ContentPlaceHolder1_txtPrazoEntrega"));
-            prazo.SendKeys("30");
+                _chromeDriver.Url = "http://localhost:4395/AppPaginas/Cadastros/CadCheckListLicitatorio.aspx";
+                for (int i = 0; i < 100; i++)
+                {
 
 
+                    Thread.Sleep(900);
+                    _chromeDriver.FindElement(By.Id("ContentPlaceHolder1_btnFiltrosNovoCadastro")).Click();
+                    Thread.Sleep(4000);
+                    _chromeDriver.FindElement(By.Id("ContentPlaceHolder1_txtCnpjIclusao")).SendKeys("67.838.490/0001-70");
+                    Thread.Sleep(600);
+                    _chromeDriver.FindElement(By.Id("ContentPlaceHolder1_imbContratoHeaderCnpjCheck")).Click();
+                    Thread.Sleep(900);
+                    _chromeDriver.FindElementById("ContentPlaceHolder1_txtCadCodigo").SendKeys("6701");
+                    Thread.Sleep(600);
+                    _chromeDriver.FindElementById("ContentPlaceHolder1_txtVigencia").SendKeys("20");
+                    Thread.Sleep(600);
+                    _chromeDriver.FindElementById("ContentPlaceHolder1_txtPrazoEntrega").SendKeys("30");
+                    Thread.Sleep(600);
+                    _chromeDriver.FindElementById("ContentPlaceHolder1_dtAbertura_txtData").SendKeys("11/09/2018");
+                    Thread.Sleep(600);
+                    _chromeDriver.FindElement(By.Id("ContentPlaceHolder1_dtCredenc_txtData")).SendKeys("12/09/2018");
+                    Thread.Sleep(600);
+                    _chromeDriver.FindElement(By.Id("ContentPlaceHolder1_dtRetomada_txtData")).SendKeys("13/09/2018");
+                    Thread.Sleep(600);
+                    _chromeDriver.FindElement(By.Id("ContentPlaceHolder1_dtLimite_txtData")).SendKeys("13/09/2018");
+                    Thread.Sleep(600);
+                    _chromeDriver.FindElement(By.Id("ContentPlaceHolder1_dtExigida_txtData")).SendKeys("13/09/2018");
+                    Thread.Sleep(600);
+                    _chromeDriver.FindElement(By.Id("ContentPlaceHolder1_txtPesquisarItem")).SendKeys("00075");
+                    Thread.Sleep(600);
+                    _chromeDriver.FindElement(By.Id("ContentPlaceHolder1_imgBuscaItensCheck")).Click();
+                    Thread.Sleep(3000);
+                    _chromeDriver.FindElement(By.Id("ContentPlaceHolder1_btnSalvar")).Click();
+                    Thread.Sleep(600);
 
-            IWebElement dtAbertura = _chromeDriver.FindElement(By.Id("ContentPlaceHolder1_dtAbertura_txtData"));
-            dtAbertura.SendKeys("11/09/2018");
-
-            IWebElement dtCredenc = _chromeDriver.FindElement(By.Id("ContentPlaceHolder1_dtCredenc_txtData"));
-            dtCredenc.SendKeys("12/09/2018");
-
-            IWebElement dtRetomada = _chromeDriver.FindElement(By.Id("ContentPlaceHolder1_dtRetomada_txtData"));
-            dtRetomada.SendKeys("13/09/2018");
-
-            IWebElement dtLimite = _chromeDriver.FindElement(By.Id("ContentPlaceHolder1_dtLimite_txtData"));
-            dtLimite.SendKeys("13/09/2018");
-
-            IWebElement dtExigida = _chromeDriver.FindElement(By.Id("ContentPlaceHolder1_dtExigida_txtData"));
-            dtExigida.SendKeys("13/09/2018");
-
-
-            IWebElement item1 = _chromeDriver.FindElement(By.Id("ContentPlaceHolder1_txtPesquisarItem"));
-            item1.SendKeys("00075");
-
-            IWebElement clickItem = _chromeDriver.FindElement(By.Id("ContentPlaceHolder1_imgBuscaItensCheck"));
-            clickItem.Click();
-            Thread.Sleep(2000);
-            item1.SendKeys("00074");
-            clickItem.Click();
-            Thread.Sleep(2000);
-
-            item1.SendKeys("00074");
-            clickItem.Click();
-            Thread.Sleep(2000);
-
-            item1.SendKeys("00077");
-            clickItem.Click();
-            Thread.Sleep(2000);
-
-
-            IWebElement salvar = _chromeDriver.FindElement(By.Id("ContentPlaceHolder1_btnSalvar"));
-            salvar.Click();
-
+                }
+                _chromeDriver.Quit();
+            }
+            catch (Exception)
+            {
+                AcessarSite();
+            }
         }
     }
 }
+

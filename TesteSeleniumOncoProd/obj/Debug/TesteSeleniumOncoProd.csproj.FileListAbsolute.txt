@@ -1,0 +1,11 @@
+C:\Users\Marcelo\Desktop\Git Projetos Pessoais\WSPontoBRQ\TesteSeleniumOncoProd\bin\Debug\TesteSeleniumOncoProd.exe.config
+C:\Users\Marcelo\Desktop\Git Projetos Pessoais\WSPontoBRQ\TesteSeleniumOncoProd\bin\Debug\TesteSeleniumOncoProd.exe
+C:\Users\Marcelo\Desktop\Git Projetos Pessoais\WSPontoBRQ\TesteSeleniumOncoProd\bin\Debug\TesteSeleniumOncoProd.pdb
+C:\Users\Marcelo\Desktop\Git Projetos Pessoais\WSPontoBRQ\TesteSeleniumOncoProd\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+C:\Users\Marcelo\Desktop\Git Projetos Pessoais\WSPontoBRQ\TesteSeleniumOncoProd\bin\Debug\ThoughtWorks.Selenium.Core.xml
+C:\Users\Marcelo\Desktop\Git Projetos Pessoais\WSPontoBRQ\TesteSeleniumOncoProd\bin\Debug\WebDriver.xml
+C:\Users\Marcelo\Desktop\Git Projetos Pessoais\WSPontoBRQ\TesteSeleniumOncoProd\bin\Debug\WebDriver.Support.xml
+C:\Users\Marcelo\Desktop\Git Projetos Pessoais\WSPontoBRQ\TesteSeleniumOncoProd\obj\Debug\TesteSeleniumOncoProd.csproj.CoreCompileInputs.cache
+C:\Users\Marcelo\Desktop\Git Projetos Pessoais\WSPontoBRQ\TesteSeleniumOncoProd\obj\Debug\TesteSeleniumOncoProd.exe
+C:\Users\Marcelo\Desktop\Git Projetos Pessoais\WSPontoBRQ\TesteSeleniumOncoProd\obj\Debug\TesteSeleniumOncoProd.pdb
+C:\Users\Marcelo\Desktop\Git Projetos Pessoais\WSPontoBRQ\TesteSeleniumOncoProd\obj\Debug\TesteSeleniumOncoProd.csprojResolveAssemblyReference.cache
