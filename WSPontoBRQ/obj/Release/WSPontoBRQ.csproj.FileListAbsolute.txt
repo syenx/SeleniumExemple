@@ -1,0 +1,15 @@
+C:\Users\Marcelo\documents\visual studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe.config
+C:\Users\Marcelo\documents\visual studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.exe
+C:\Users\Marcelo\documents\visual studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WSPontoBRQ.pdb
+C:\Users\Marcelo\documents\visual studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\Selenium.WebDriverBackedSelenium.dll
+C:\Users\Marcelo\documents\visual studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\ThoughtWorks.Selenium.Core.dll
+C:\Users\Marcelo\documents\visual studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WebDriver.dll
+C:\Users\Marcelo\documents\visual studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WebDriver.Support.dll
+C:\Users\Marcelo\documents\visual studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\Selenium.WebDriverBackedSelenium.xml
+C:\Users\Marcelo\documents\visual studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\ThoughtWorks.Selenium.Core.xml
+C:\Users\Marcelo\documents\visual studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WebDriver.xml
+C:\Users\Marcelo\documents\visual studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\bin\Release\WebDriver.Support.xml
+C:\Users\Marcelo\documents\visual studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\obj\Release\WSPontoBRQ.ProjectInstaller.resources
+C:\Users\Marcelo\documents\visual studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\obj\Release\WSPontoBRQ.csproj.GenerateResource.Cache
+C:\Users\Marcelo\documents\visual studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\obj\Release\WSPontoBRQ.exe
+C:\Users\Marcelo\documents\visual studio 2013\Projects\WSPontoBRQ\WSPontoBRQ\obj\Release\WSPontoBRQ.pdb
